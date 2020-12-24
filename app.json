@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/photos/photos",
+    "pages/setting/setting",
+    "pages/account/account"
+  ],
+  "sitemapLocation": "sitemap.json",
+  "window": {
+    "navigationBarBackgroundColor": "#6699FF",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的小仙女日常"
+  },
+  "tabBar": {
+    "color": "#FF9933",
+    "selectedColor": "#FF0000",
+    "backgroundColor": "#BFEFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "images/tabbar/shouye.png",
+        "selectedIconPath": "images/tabbar/shouye.png"
+      }, {
+        "pagePath": "pages/logs/logs",
+        "text": "生活记录",
+        "iconPath": "images/tabbar/article.png",
+        "selectedIconPath": "images/tabbar/article.png"
+      }, {
+        "pagePath": "pages/photos/photos",
+        "text": "个人相册",
+        "iconPath": "images/tabbar/photo.png",
+        "selectedIconPath": "images/tabbar/photo.png"
+      }, {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "images/tabbar/setting.png",
+        "selectedIconPath": "images/tabbar/setting.png"
+      }, {
+        "pagePath": "pages/account/account",
+        "text": "个人中心",
+        "iconPath": "images/tabbar/account.png",
+        "selectedIconPath": "images/tabbar/account.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "usingComponents": {
+    "mp-icon": "weui-miniprogram/icon/icon"
+  }
+}

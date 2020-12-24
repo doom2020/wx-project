@@ -1,0 +1,16 @@
+page {
+  height: 100%;
+  width: 750rpx;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+
+.tab-item {
+  width: 25%;
+  margin: 2px;
+}
+.itembtn{
+  font-size: 10px;
+  border: none;
+}

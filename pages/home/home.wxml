@@ -1,0 +1,88 @@
+<view class="container" style="width: 100%">
+	<view class="page-body">
+		<view class="page-section page-section-spacing swiper">
+			<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+					<block wx:for="{{imgUrls}}" wx:key="*this">
+							<swiper-item>
+									<image src="{{item}}" class="slide-image" style="width: 100%" />
+							</swiper-item>
+					</block>
+			</swiper>
+		</view>
+	</view>
+	<view class="tabs" style="display: flex;flex-direction:row;align-items: center;height: 40px;">
+		<view class="tab-item">
+			<button class="mini-btn itembtn" type="default" plain="true" style="border-radius: 0;border: none;border-bottom: 2px solid #00CD00">兴趣爱好</button>
+		</view>
+		<view class="tab-item">
+			<button class="mini-btn itembtn" type="default" plain="true" style="border-radius: 0;border: none;border-bottom: 2px solid #00CD00">个人优点</button>
+		</view>
+		<view class="tab-item">
+			<button class="mini-btn itembtn" type="default" plain="true" style="border-radius: 0;border: none;border-bottom: 2px solid #00CD00">个人缺点</button>
+		</view>
+		<view class="tab-item">
+			<button class="mini-btn itembtn" type="default" plain="true" style="border-radius: 0;border: none;border-bottom: 2px solid #00CD00">个性签名</button>
+		</view>
+	</view>
+	<view class="hr" style="height: 2px;background-color: #838B8B"></view>
+	<view class="head" style="display: flex;flex-direction: row;align-items: center;font-size:13px;color:#333333;height: 30px;">
+		<view style="color: #8A8A8A">老公留言</view>
+		<mp-badge content="99+" style="width: 200px;"></mp-badge>
+		<view style="color: #8A8A8A">查看详情</view>
+	</view>
+	<view class="hr" style="height: 2px;background-color: #838B8B"></view>
+	<scroll-view style="height: 220px" scroll-y="true">
+		<view>
+			<text style="color: gray;font-size: 12px">[2020-12-25 00:10:00]袁知剑: </text>
+			<text style="font-size: 14px">老婆美美哒</text>
+		</view>
+		<view>
+			<text style="color: gray;font-size: 12px">[2020-12-25 07:20:00]袁知剑: </text>
+			<text style="font-size: 14px">老婆早呀</text>
+		</view>
+		<view>
+			<text style="color: gray;font-size: 12px">[2020-12-25 07:21:00]袁知剑: </text>
+			<text style="font-size: 14px">老婆早呀</text>
+		</view>
+		<view>
+			<text style="color: gray;font-size: 12px">[2020-12-25 07:22:00]袁知剑: </text>
+			<text style="font-size: 14px">老婆早呀</text>
+		</view>
+		<view>
+			<text style="color: gray;font-size: 12px">[2020-12-25 07:23:00]袁知剑: </text>
+			<text style="font-size: 14px">老婆早呀</text>
+		</view>
+		<view>
+			<text style="color: gray;font-size: 12px">[2020-12-25 07:24:00]袁知剑: </text>
+			<text style="font-size: 14px">老婆早呀</text>
+		</view>
+		<view>
+			<text style="color: gray;font-size: 12px">[2020-12-25 07:25:00]袁知剑: </text>
+			<text style="font-size: 14px">老婆早呀</text>
+		</view>
+		<view>
+			<text style="color: gray;font-size: 12px">[2020-12-25 07:26:00]袁知剑: </text>
+			<text style="font-size: 14px">老婆早呀</text>
+		</view>
+		<view>
+			<text style="color: gray;font-size: 12px">[2020-12-25 07:27:00]袁知剑: </text>
+			<text style="font-size: 14px">老婆早呀</text>
+		</view>
+		<view>
+			<text style="color: gray;font-size: 12px">[2020-12-25 07:28:00]袁知剑: </text>
+			<text style="font-size: 14px">老婆早呀</text>
+		</view>
+		<view>
+			<text style="color: gray;font-size: 12px">[2020-12-25 07:29:00]袁知剑: </text>
+			<text style="font-size: 14px">老婆早呀</text>
+		</view>
+		<view>
+			<text style="color: gray;font-size: 12px">[2020-12-25 07:30:00]袁知剑: </text>
+			<text style="font-size: 14px">老婆起床啦</text>
+		</view>
+	</scroll-view>
+	<!-- <button bindtap="changeIndicatorDots"> indicator-dots </button> -->
+	<!-- <button bindtap="changeAutoplay"> autoplay </button> -->
+	<!-- <slider bindchange="intervalChange" show-value min="500" max="2000"/> interval -->
+	<!-- <slider bindchange="durationChange" show-value min="1000" max="10000"/> duration -->
+</view>
